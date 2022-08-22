@@ -20,11 +20,12 @@ namespace dotNet_02_TP1_Heritage
         public Rectangle()
         {
         }
-
-        public override double Aire()
+        /*public override double Aire()
         {
             return this.Largeur * this.Longueur;
-        }
+        }*/
+        public override double Aire() => this.Largeur * this.Longueur;
+
 
         public override double Perimetre()
         {
