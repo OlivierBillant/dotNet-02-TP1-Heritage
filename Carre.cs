@@ -31,7 +31,7 @@ namespace dotNet_02_TP1_Heritage
         public override string ToString()
         {
             return
-                $"Carré de côté {Longueur} \n Aire : {Aire()} \n Perimetre {Perimetre()}\n";
+                $"Carré de côté {Longueur} \n {base.ToString()}";
         }
     }
 }

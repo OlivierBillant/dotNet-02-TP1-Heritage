@@ -32,7 +32,7 @@ namespace dotNet_02_TP1_Heritage
         public override string ToString()
         {
             return
-                $"Cercle de rayon {Rayon} \n Aire : {Aire()} \n Perimetre {Perimetre()}\n";
+                $"Cercle de rayon {Rayon} \n {base.ToString()}";
         }
     }
 

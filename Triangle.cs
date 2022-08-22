@@ -37,7 +37,7 @@ namespace dotNet_02_TP1_Heritage
         public override string ToString()
         {
             return
-                $"Triangle de côté A = {A}, B = {B}, C = {C} \n Aire : {Aire()} \n Perimetre {Perimetre()}\n";
+                $"Triangle de côté A = {A}, B = {B}, C = {C} \n {base.ToString()}";
         }
     }
 }

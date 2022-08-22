@@ -35,7 +35,7 @@ namespace dotNet_02_TP1_Heritage
         public override string ToString()
         {
             return
-                $"Rectangle de longueur {Longueur} et de largeur {Largeur}\n Aire : {Aire()} \n Perimetre {Perimetre()}\n";
+                $"Rectangle de longueur {Longueur} et de largeur {Largeur}\n {base.ToString()}";
         }
     }
 }
