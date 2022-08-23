@@ -33,5 +33,10 @@ namespace dotNet_02_TP1_Heritage
             return
                 $"Carré de côté {Longueur} \n {base.ToString()}";
         }
+
+        public static Carre operator +(Carre left, Carre right)
+        {
+            return new Carre { Longueur = left.Longueur + right.Longueur };
+        }
     }
 }
